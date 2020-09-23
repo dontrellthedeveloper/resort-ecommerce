@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../components/Hero';
+
 
 const Error = () => {
     return (
-        <div>
-            Hello from error page
-        </div>
+        <Hero/>
     )
 }
 
