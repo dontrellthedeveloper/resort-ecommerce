@@ -10,11 +10,10 @@ function RoomContainer({context}) {
                 return <Loading/>
             }
             return (
-                <div>
-                    Hello from Rooms Container
+                <React.Fragment>
                     <RoomsFilter rooms={rooms}/>
                     <RoomsList rooms={sortedRooms}/>
-                </div>
+                </React.Fragment>
             )
 }
 
